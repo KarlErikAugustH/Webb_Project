@@ -1,0 +1,213 @@
+
+
+h1{
+    text-align: center;
+}
+
+.rightCorner{ /*https://www.w3schools.com/css/tryit.asp?filename=trycss_image_text_top_right*/
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 25px;
+}
+.rightCorner button{    
+    padding: 10% 40%;
+    white-space: nowrap;
+    background-color: rgba(238, 255, 0, 0.788);
+}
+
+.rightCorner button:hover{
+    background-color: rgb(211, 207, 5);
+}
+
+
+
+
+#loginDiv{
+    padding: 20px;
+    border: 3px solid green;
+    display: block;
+    margin: auto;
+    width: 20%; 
+    background-color: white; 
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+
+#loginDiv label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin: 0%;
+    
+}
+
+#loginDiv input[type="text"], input[type="password"]{
+    width: 100%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    
+}
+
+#loginDiv input[type=submit]{
+    display: block;
+    color: white;
+    width: 100%;
+    margin-bottom: 5%;
+    background-color: rgb(33, 104, 236);
+    border-radius: 5px;
+}
+#loginDiv input[type=submit]:hover{
+    background-color: darkblue;
+}
+
+#link{
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+    
+    
+}
+
+
+.error{        
+    color: red;
+    text-align: center;
+}
+
+
+.succeed{        
+    color: green;
+    text-align: center;
+}
+
+
+/* #mainmenu{
+    
+    border-right: 3px solid green;
+    text-align: left;
+    display: block;
+    margin-left: 0%;
+    height: 100%;
+    width: 20%;
+    border-radius: 5px; 
+    
+} */
+ 
+#mainmenu ul{
+    list-style-type: none;    
+    margin: 0;
+    padding: 0;
+    width: 20%;    
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    border-right: 2px solid black;
+    
+    
+    
+}
+
+#mainmenu li a{    
+    display: block;
+    margin-top: 5%;   
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+    /* background-color: rgb(223, 202, 202);         */
+}
+
+#mainmenu #liDiv{
+    display: block;
+    margin-top: 5%;   
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;       
+}
+
+#liDiv input[name=serachBar] {
+    width: 50%;
+}
+
+#mainmenu li:hover{
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    width: 100%;
+    
+}
+
+#postCreator{    
+    display: block;
+    margin: auto;
+    text-align: center;
+    /* height: 100%; */
+    width: 40%;
+    border: 3px solid green;
+    padding: 50px;
+    
+    border-radius: 10px;
+    /* background-color: black; */
+}
+
+#postCreator input[name="inpTitle"]{
+    font-family: Arial, sans-serif;
+    /* text-align: center; */
+    display: block;        
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+
+#postCreator textarea[name="inpText"]{
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    /* text-align: center; */
+    display: block;
+    /* height: 100px; */
+    /* padding: 10px; */
+    width: 100%;    
+}
+
+.postId{
+    display: block;
+    margin: auto;
+    text-align: center;
+    /* height: 100%; */
+    width: 30%;
+    border: 3px solid black;
+    padding: 50px;    
+    margin-bottom: 5%;
+    border-radius: 10px;
+    border-bottom: 1px solid black;
+
+}
+
+.postId img{
+    margin-top: 5%;
+    width: 100%;
+    margin-bottom: 15%;
+
+}
+
+.postId a{
+    /* background-color: black; */
+    display: block;
+    text-align: right;
+}
+
+.postId .dateId{    
+    display: block;
+    text-align: right;
+}
+
+.middle{
+    
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+} 
+
+
